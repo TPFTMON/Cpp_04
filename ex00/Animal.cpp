@@ -49,13 +49,3 @@ void Animal::makeSound() const{
 
     std::cout << "Epic Primordial Roar\n";
 }
-
-
-
-
-// Animal::Animal(std::string name)
-//     :
-// {
-
-//     std::cout << STR_CONSTR_MSG << ANIMAL_MSG << "\n";
-// }

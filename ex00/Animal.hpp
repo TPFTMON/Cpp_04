@@ -29,6 +29,3 @@ class Animal{
 };
 
 #endif
-
-
-// # define STR_CONSTR_MSG "\e[0;33mString Parameter Constructor\e[0m called of "
