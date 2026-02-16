@@ -1,6 +1,6 @@
-NAME		:= Animals
+NAME		:= Animals...
 
-SRCS		:= main.cpp Animal.cpp Cat.cpp
+SRCS		:= main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp WrongDog.cpp
 
 OBJ_DIR		:= obj
 

@@ -10,6 +10,10 @@
 class Cat : public Animal{
 
     public:
+        Cat();
+        Cat(const Cat &to_copy);
+        Cat& operator=(const Cat &assign);
+        ~Cat();
 
         void makeSound() const;
 };

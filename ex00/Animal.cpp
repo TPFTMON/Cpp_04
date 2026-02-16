@@ -40,6 +40,11 @@ Animal::~Animal(){
 //                  OTHER PUBLIC MEMBER FUNCTIONS
 // ================================================================
 
+std::string Animal::getType() const{
+
+    return(this->_type);
+}
+
 void Animal::makeSound() const{
 
     std::cout << "Epic Primordial Roar\n";

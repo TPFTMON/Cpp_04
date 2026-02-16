@@ -16,16 +16,16 @@
 class WrongAnimal{
 
     protected:
-        std::string type;
+        std::string _type;
 
     public:
         WrongAnimal();
-        // WrongAnimal(std::string name);
         WrongAnimal(const WrongAnimal &to_copy);
         WrongAnimal& operator=(const WrongAnimal &assign);
-        /*virtual */~WrongAnimal();
+        /*NO virtual*/~WrongAnimal();
 
-        /*virtual */void makeSound() const;
+        std::string getType() const;
+        /*NO virtual */void makeSound() const;
 };
 
 #endif
