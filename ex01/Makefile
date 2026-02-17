@@ -1,6 +1,6 @@
 NAME		:= WE_HAVE_A_BRAIN_NOW
 
-SRCS		:= main.cpp
+SRCS		:= main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp
 
 OBJ_DIR		:= obj
 

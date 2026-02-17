@@ -13,6 +13,7 @@
 # define DESTR_MSG "\e[0;31mDestructor\e[0m called of "
 
 # define FILL_BRAIN_MSG "\e[0;35mfillBrainWithIdeas member function\e[0m called of "
+# define DISPLAY_IDEAS_MSG "\e[0;35mdisplayIdeas member function\e[0m called of "
 
 // Class implementations:
 class Brain{
@@ -29,6 +30,7 @@ class Brain{
         ~Brain();
 
         void fillBrainWithIdeas(std::string idea);
+        void displayIdeas() const;
 
 };
 
