@@ -8,7 +8,6 @@ AMateria::AMateria(const AMateria &src) : _type(src._type){
 }
 
 AMateria::~AMateria(){
-
 }
 
 // The subject says type shouldn't be copied.
