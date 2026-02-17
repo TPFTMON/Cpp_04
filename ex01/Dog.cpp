@@ -10,6 +10,9 @@ Dog::Dog() : Animal(){
     std::cout << DEF_CONSTR_MSG << DOG_MSG << "\n";
 
     this->_type = "Dog";
+
+    this->_brain = new Brain();
+    this->_brain->fillBrainWithIdeas("Let\'s eat the slippers! YES YES YES!");
 }
 
 Dog::Dog(const Dog &to_copy) : Animal(to_copy){

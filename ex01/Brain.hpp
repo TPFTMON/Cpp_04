@@ -12,17 +12,23 @@
 # define COPY_ASSIGN_OP_MSG "\e[0;35mCopy assignment operator\e[0m called of "
 # define DESTR_MSG "\e[0;31mDestructor\e[0m called of "
 
+# define FILL_BRAIN_MSG "\e[0;35mfillBrainWithIdeas member function\e[0m called of "
+
 // Class implementations:
 class Brain{
 
+    static const int MAX_IDEAS = 100;
+
     private:
-        std::string _ideas[100];
+        std::string _ideas[MAX_IDEAS];
 
     public:
         Brain();
         Brain(const Brain &to_copy);
         Brain& operator=(const Brain &assign);
         ~Brain();
+
+        void fillBrainWithIdeas(std::string idea);
 
 };
 
