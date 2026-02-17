@@ -1,4 +1,4 @@
-NAME		:=
+NAME		:= WE_HAVE_A_BRAIN_NOW
 
 SRCS		:= main.cpp
 
